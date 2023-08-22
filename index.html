@@ -1,0 +1,552 @@
+<!doctype html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Nos casamos!!</title>
+    <meta name="description" content="Queremos invitaros a nuestro gran día.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:title" content="Nos casamos!!">
+    <meta property="og:description" content="El día 16 de Diciembre del 2023 y queremos haceros partícipes de ello.">
+    <meta property="og:image" content="img/logo2.png">
+    <meta property="og:type" content="website">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+
+    <script>
+        // load css files from CDN if local node_modules fail
+        function loadCssFromCDN(css) {
+            // create new link tag
+            const link = document.createElement('link');
+            if (css === 'animate.css') {
+                link.href = 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css';
+            } else if (css === 'font-awesome.css') {
+                link.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
+            }
+            link.rel = 'stylesheet';
+
+            // add link tag to head section
+            document.getElementsByTagName('head')[0].appendChild(link);
+        }
+
+        // load js files from CDN if local node_modules fail
+        function loadJsFromCDN(js) {
+            if (js === 'waypoints.js') {
+                document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"><\/script>');
+            } else if (js === 'jquery.js') {
+                document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"><\/script>');
+            }
+        }
+    </script>
+
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="css/styles.min.css">
+    <link rel="stylesheet" href="css/queries.css">
+    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css" onerror="loadCssFromCDN('animate.css')">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css"
+        onerror="loadCssFromCDN('font-awesome.css')">
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+
+<body id="top">
+    <!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+<![endif]-->
+    <section class="hero">
+        <section class="navigation">
+            <header>
+                <div class="header-content">
+                    <div class="logo"><a href="#"><img src="img/logo2.png" alt="Logo"></a></div>
+                    <div class="header-nav">
+                        <nav>
+                            <ul class="primary-nav">
+                                <li><a href="#intro">Llega el gran día</a></li>
+                                <li><a href="#events">Programa</a></li>
+                                <li><a href="#hoteles">Hoteles</a></li>
+                                <li><a href="#autobuses">Autobuses</a></li>
+                                <li class="hidden-sm hidden-xs"><a href="#video-bg">Castellón</a></li>
+                            </ul>
+                            <ul class="member-actions">
+                                <li><a href="#map" class="login">Lugar</a></li>
+                                <li><a href="#rsvp" class="btn-white btn-small">Confirma tu plaza!!</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="navicon">
+                        <a class="nav-toggle" href="#"><span></span></a>
+                    </div>
+                </div>
+            </header>
+        </section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="hero-content text-center">
+                        <h1>Laura y Hugo</h1>
+                        <h2>16/12/2023</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 hidden-xs"></div>
+                <div class="col-sm-4 hidden-xs text-center"><a href="#rsvp"
+                        class="btn btn-accent btn-large rsvp-btn">Confirma tu plaza!!</a></div>
+                <div class="col-sm-4 hidden-xs"></div>
+            </div>
+        </div>
+        <div class="down-arrow floating-arrow"><a href="#invitation"><i class="fa fa-angle-down"></i></a></div>
+    </section>
+
+    <section id="invitation" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h3>Nos casamos!!</h3>
+                    <p>El día 16 de Diciembre del 2023 y queremos haceros partícipes de ello.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="intro">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h3 class="header">Por fin llega el gran día</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 hidden-sm hidden-xs"><img src="img/cuenca1.jpg" class="wp1"></div>
+                <div class="col-md-6">
+                    <p>
+                        Estamos emocionados de poder celebrar con todos vosotros nuestra boda,
+                        por lo que tenemos muchas ganas de veros a todos en La Huerta de peñalen.
+                        Estamos a punto de sumergirnos en un día mágico en la encantadora Huerta de Peñalen.
+                        Tras estos años hemos llegado a un nuevo capítulo en nuestra historia
+                        y queremos que seas parte de esta aventura. Entre árboles frutales y la brisa fresca,
+                        celebraremos nuestra unión con un cocktail de bienvenida.
+                        Después, la celebración continuará con delicias culinarias y bailes bajo el
+                        cielo estrellado. Prepárate a reir, bailar y llorar de felicidad.
+                        Gracias por ser parte de nuestro viaje.
+                        ¡Nos vemos pronto!
+                        Con cariño,
+                        Laura y Hugo
+                    </p>
+                </div>
+                <div class="col-md-3 hidden-sm hidden-xs"><img src="img/bod.jpg" class="wp2"></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 col-sm-push-2 col-xs-6 hidden-md hidden-lg"><img src="img/cuenca1.jpg" class="wp8">
+                </div>
+                <div class="col-sm-4 col-sm-push-2 col-xs-6 hidden-md hidden-lg"><img src="img/bod.jpg" class="wp9">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="rsvp text-center" id="rsvp">
+        <div id="rsvp-modal" class="modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
+                        </button>
+                        <div class="section-padding">
+                            <h3>Gracias!</h3>
+                            <p>Añade el evento a tu calendario.</p>
+                            <div id="add-to-cal"></div>
+                        </div>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <h3>¿A qué estás esperando?</h3>
+                    <p>Confirma tu asistencia antes del 15 de Noviembre de 2023</p>
+                    <form id="rsvp-form" class="rsvp-form" action="" method="POST">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="form-input-group">
+                                    <i class="fa fa-envelope"></i><input type="email" name="email" class=""
+                                        placeholder="Tu email" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="form-input-group">
+                                    <i class="fa fa-user"></i><input name="nombre" class="" placeholder="quién eres"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="form-input-group">
+                                    <i class="fa fa-user"></i><input name="personas" class=""
+                                        placeholder="con quién vienes" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="form-input-group">
+                                    <i class="fa fa-car"></i><input name="autobus" class="" placeholder="Usarás el bus? desde dónde?"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-sm-12">
+                                <div class="form-input-group">
+                                    <i class="fa fa-cutlery"></i><input name="plato" class="" placeholder="Carne, pescado o vegetariano?"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="form-input-group">
+                                    <i class="fa fa-cutlery"></i><input name="alergias" class="" placeholder="¿Alergias o intolerancias?"
+                                        required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="form-input-group">
+                                    <i class="fa fa-key"></i><input type="number" name="invite_code" id="invite_code"
+                                        class="" min="0" placeholder="Invite code" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12" id="alert-wrapper"></div>
+                        </div>
+                        <button class="btn-fill rsvp-btn">
+                            Inscríbeme ya!!
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="events section-padding" id="events">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="header">Programa</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-12 col-xs-12 leftcol">
+                    <div class="wp3">
+                        <p><strong>15 de Diciembre</strong></p>
+
+                        <h5>Llegada <span class="time">12:00 - 23:59</span></h5>
+                        <p>Esperamos vuestra llegada a Castellón, para ello os sugerimos reservar en los siguientes
+                            hoteles:
+
+                            En estos hoteles pararán los autobuses tanto de ida como de vuelta del recinto.
+                        </p>
+                    </div>
+                    <div class="wp5">
+                        <h5>Grao de Castellón <span class="time">20:00 - 23:00</span></h5>
+                        <p>El 15 de Diciembre esperamos vuestra llegada a Castellón, nos gustaría reunirnos ese día para
+                            que
+                            compartamos una bebida y un snack y así ir calentando motores para el gran día!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-xs-12 rightcol">
+                    <div class="wp4">
+                        <p><strong>16 de Diciembre</strong></p>
+                        <h5>La huerta de peñalen<span class="time">12:45</span></h5>
+                        <p>Nos gustaría que os uniérais a nosotros a partir de las 12:45 en La Huerta de Peñalen</p>
+                        <h5>Cocktail<span class="time">13:00 - 14:30</span></h5>
+                        <p>A las 13:00 dará comienzo el cocktail en un ambiente espectacular, será algo muy especial y
+                            queremos que no os lo perdáis.</p>
+                    </div>
+                    <div class="wp6">
+                        <h5>Comida<span class="time">14:30</span></h5>
+                        <p> Sobre las 14:30 pasaremos al comedor, donde podremos degustar un maravilloso menú que
+                            esperamos
+                            que sea de vuestro agrado, ya que está confeccionado con todo el mimo del mundo para que
+                            disfruté
+                            tal y como nosotros vamos a disfrutar a vuestro lado.</p>
+                        <h5>Baile<span class="time">18:00</span></h5>
+                        <p>Una vez que el banquete ha terminado es el momento de bailar!! Así que pasaremos a la zona de
+                            baile y
+                            podréis demostrar de lo que estáis hechos, a disfrutar! queremos que lo déis todo!!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row section-padding">
+                <div class="col-md-4 col-md-offset-4 text-center">
+                    <a class="btn btn-accent btn-small" data-toggle="modal" data-target="#dc-modal">
+                        <i class="fa fa-barcode"></i>&nbsp;&nbsp;Etiqueta
+                    </a>
+                </div>
+            </div>
+            <!--<div class="row">
+            <div class="col-xs-12 section-border section-padding">
+            </div>
+        </div>-->
+        </div>
+
+        <div id="dc-modal" class="modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
+                        </button>
+                        <h3 class="text-center section-padding">Etiqueta?</h3>
+                        <h5>Etiqueta</h5>
+                        <p>
+                            Queremos veros elegantes, pero la comodidad es primordial.
+                            Por otro lado pensad que a los chicos no os va sobrar la chaqueta y
+                            las chicas traeros una chaquetilla por si acaso que es Diciembre!!
+                        </p>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
+    </section>
+    <section class="hotels section-padding" id="hoteles">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="header">Hoteles</h3>
+                </div>
+                <div class="col-md-6">
+                    <p>
+                       Os sugerimos los siguientes hoteles para vuestra estancia en Castellón
+                    </p>
+                </div>
+            </div>
+            <div class="row">  
+                <div class="col-md-6 col-sm-12 col-xs-12 leftcol">
+                    <div class="wp3">
+                        <h5><strong>RH Silene</strong></h5>
+                        <p>Este hotel de 4 estrellas se encuentra junto al pinar del golf y es la mejor opción
+                           para disfrutar de la maravillosa playa, tanto el día anterior al evento, como el día posterior.
+                           Para realizar una reserva podéis llamar al <a href="tel:964280180">964280180</a> e indicar que llamáis para la boda de Laura y Hugo,
+                           os han de ofrecer un 10% de descuento de viernes a domingo.
+                        </p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3056.7368781783803!2d0.022613575990042448!3d39.99198507151106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a0003b3144d9d5%3A0xfc0c621489236b59!2sRH%20Silene%20Hotel%20%26%20Spa!5e0!3m2!1sen!2ses!4v1692626782415!5m2!1sen!2ses" 
+                        width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-xs-12 rightcol">
+                    <div class="wp3">
+                        <h5><strong>NH Castelló turcosa</strong></h5>
+                        <p>Este hotel se encuentra ubicado en el Grao de Castellón, esta zona está ubicada en el puerto.
+                           El autobús tendrá parada en este hotel. Podéis reservar en su página web <a href="https://www.nh-hotels.com/hotel/nh-castellon-turcosa?utm_campaign=local-gmb&utm_medium=organic_search&utm_source=google_gmb">nh-hotels.com</a>
+                        </p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6200.214244667042!2d0.013464519570410165!3d39.97655901648625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129fffee18778fcb%3A0x6a19b02f7c5548b!2sHotel%20NH%20Castell%C3%B3%20Turcosa!5e0!3m2!1sen!2ses!4v1692628229527!5m2!1sen!2ses" 
+                        width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="wp3">
+                        <h5><strong>Hotel Intur Castellón</strong></h5>
+                        <p>Este hotel ubicado en el centro de Castellón, creemos que es una muy buena opción para aquellos que quieran alojarse en la ciudad
+                           ya que quizás quieran continuar la fiesta por la vida nocturna que ofrece Castellón o que no quieran alojarse en la zona de costa.
+                           El autobús no realizará parada en la puerta de este hotel, pero si en un lugar cercano a menos de 10 minutos andando.
+                           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6114.087613154062!2d-0.04586643745274992!3d39.98512636072268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5ffe2a868d3065%3A0x9e658a0501dd7fc!2sHotel%20Intur%20Castell%C3%B3n!5e0!3m2!1sen!2ses!4v1692629106206!5m2!1sen!2ses" 
+                           width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!--<div class="row">
+            <div class="col-xs-12 section-border section-padding">
+            </div>
+        </div>-->
+        </div>
+
+        <div id="dc-modal" class="modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
+                        </button>
+                        <h3 class="text-center section-padding">Etiqueta?</h3>
+                        <h5>Etiqueta</h5>
+                        <p>
+                            Queremos veros elegantes, pero la comodidad es primordial.
+                            Por otro lado pensad que a los chicos no os va sobrar la chaqueta y
+                            las chicas traeros una chaquetilla por si acaso que es Diciembre!!
+                        </p>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
+    </section>
+    <section class="autobus section-padding" id="autobuses">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="header">Autobuses hacia/desde la Huerta de Peñalen</h3>
+                </div>
+                <div class="col-md-6">
+                    <p>
+                       Aquí incluiremos los horarios de los autobuses y sus paradas
+                    </p>
+                    <p>
+                        Coming soon!!
+                     </p>
+                </div>
+            </div>
+            <!-- <div class="row">  
+                <div class="col-md-6 col-sm-12 col-xs-12 leftcol">
+                    <div class="wp3">
+                        <h5><strong>RH Silene</strong></h5>
+                        <p>Este hotel de 4 estrellas se encuentra junto al pinar del golf y es la mejor opción
+                           para disfrutar de la maravillosa playa, tanto el día anterior al evento, como el día posterior.
+                           Para realizar una reserva podéis llamar al <a href="tel:964280180">964280180</a> e indicar que llamáis para la boda de Laura y Hugo,
+                           os han de ofrecer un 10% de descuento de viernes a domingo.
+                        </p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3056.7368781783803!2d0.022613575990042448!3d39.99198507151106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a0003b3144d9d5%3A0xfc0c621489236b59!2sRH%20Silene%20Hotel%20%26%20Spa!5e0!3m2!1sen!2ses!4v1692626782415!5m2!1sen!2ses" 
+                        width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        
+                    </div>
+                </div> -->
+                 <!-- <div class="col-md-6 col-sm-12 col-xs-12 rightcol">
+                    <div class="wp3">
+                        <h5><strong>NH Castelló turcosa</strong></h5>
+                        <p>Este hotel se encuentra ubicado en el Grao de Castellón, esta zona está ubicada en el puerto.
+                           El autobús tendrá parada en este hotel. Podéis reservar en su página web <a href="https://www.nh-hotels.com/hotel/nh-castellon-turcosa?utm_campaign=local-gmb&utm_medium=organic_search&utm_source=google_gmb">nh-hotels.com</a>
+                        </p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6200.214244667042!2d0.013464519570410165!3d39.97655901648625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x129fffee18778fcb%3A0x6a19b02f7c5548b!2sHotel%20NH%20Castell%C3%B3%20Turcosa!5e0!3m2!1sen!2ses!4v1692628229527!5m2!1sen!2ses" 
+                        width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="wp3">
+                        <h5><strong>Hotel Intur Castellón</strong></h5>
+                        <p>Este hotel ubicado en el centro de Castellón, creemos que es una muy buena opción para aquellos que quieran alojarse en la ciudad
+                           ya que quizás quieran continuar la fiesta por la vida nocturna que ofrece Castellón o que no quieran alojarse en la zona de costa.
+                           El autobús no realizará parada en la puerta de este hotel, pero si en un lugar cercano a menos de 10 minutos andando.
+                           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6114.087613154062!2d-0.04586643745274992!3d39.98512636072268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5ffe2a868d3065%3A0x9e658a0501dd7fc!2sHotel%20Intur%20Castell%C3%B3n!5e0!3m2!1sen!2ses!4v1692629106206!5m2!1sen!2ses" 
+                           width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </p>
+                    </div>
+                </div> 
+            </div> -->
+            <!--<div class="row">
+            <div class="col-xs-12 section-border section-padding">
+            </div>
+        </div>-->
+        </div>
+
+        <div id="dc-modal" class="modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
+                        </button>
+                        <h3 class="text-center section-padding">Etiqueta?</h3>
+                        <h5>Etiqueta</h5>
+                        <p>
+                            Queremos veros elegantes, pero la comodidad es primordial.
+                            Por otro lado pensad que a los chicos no os va sobrar la chaqueta y
+                            las chicas traeros una chaquetilla por si acaso que es Diciembre!!
+                        </p>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
+    </section>
+    <section id="video-bg" class="hidden-sm hidden-xs">
+        <div id="bgndVideo" class="player"
+            data-property="{videoURL:'https://youtu.be/j6C7M95vGGs?t=110',containment:'#video-bg',autoPlay:true, mute:true, showControls:false, startAt:80, stopAt:259, opacity:1}">
+        </div>
+        <div id="video-content">
+            <h5>Castellón</h5>
+            <p>Qué hermosa eres</p>
+        </div>
+    </section>
+
+    <section id="map" class="section-padding">
+        <div class="text-center">
+            <h3>Cómo llegar?</h3>
+            <p>¡Es más fácil de lo que crees!</p>
+        </div>
+        <div id="map-canvas"></div>
+        <div id="map-content-wrapper" class="container pointer-events-none">
+            <div class="row">
+                <div class="col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6">
+                    <div class="text-center">
+                        <div id="btn-show-content" class="toggle-map-content pointer-events-auto">
+                            <i class="fa fa-info-circle"></i>&nbsp;&nbsp; Mostrar información
+                        </div>
+                    </div>
+                    <div id="map-content" class="pointer-events-auto">
+                        <div class="row text-center">
+                            <div class="col-md-12">
+                                <h5>Huerta Peñalen</h5>
+                                <p>Villareal, España</p>
+                            </div>
+
+                        </div>
+                        <div class="row text-center">
+                            <div class="col-md-12" style="padding: 5px;">
+                                <a class="btn btn-accent btn-small" id="btn-show-map"><i
+                                        class="fa fa-map-marker"></i>&nbsp;&nbsp;Mostrar
+                                    mapa</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center content">
+                    <span class="to-top-wrapper"><a href="#top" class="to-top"><i class="fa fa-angle-up"></i></a></span>
+                    <p>Ya no queda nada!! <span class="fa fa-heart pulse2"></span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/vendor/jquery-1.11.2.min.js" onerror="loadJsFromCDN('jquery.js')"></script>
+    <script src="node_modules/waypoints/lib/jquery.waypoints.min.js" onerror="loadJsFromCDN('waypoints.js')"></script>
+    <script src="js/jquery.fancybox.pack.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/jquery.mb.YTPlayer.min.js"></script>
+    <script src="js/vendor/ouical.js"></script>
+    <script src="js/scripts.min.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVAv0M8wRadwtiUjb4QyMvE06krqktEu4&callback=initMap"></script>
+    <!-- Google Analytics -->
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-46465113-4', 'auto');
+        ga('send', 'pageview');
+    </script>
+</body>
+
+</html>
